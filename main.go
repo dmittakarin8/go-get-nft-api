@@ -21,7 +21,7 @@ var (
 
 func main() {
 
-	url := "https://eth-mainnet.alchemyapi.io/v2/9KfaK3_skwhS81PyS1wEN4GPfuFVyPWX/getNFTMetadata"
+	url := "https://eth-mainnet.alchemyapi.io/v2/<api-key>/getNFTMetadata"
 	method := "GET"
 
 	if tokenType == "erc721" {
